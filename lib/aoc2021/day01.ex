@@ -1,4 +1,4 @@
-defmodule Aoc2021.Star01 do
+defmodule Aoc2021.Day01 do
   use Aoc2021.Day, read_as: :int
 
   def test_measurements() do

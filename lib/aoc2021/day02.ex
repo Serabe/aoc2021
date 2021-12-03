@@ -1,4 +1,4 @@
-defmodule Aoc2021.Star02 do
+defmodule Aoc2021.Day02 do
   use Aoc2021.Day
 
   defmodule FirstInterpreter do
@@ -36,14 +36,14 @@ defmodule Aoc2021.Star02 do
   def run(commands \\ read_input()) do
     {horizontal, depth} =
       commands
-      |> Enum.reduce({0, 0}, &FirstInterpreter.apply_command(&1, &2))
+      |> Enum.reduce({0, 0}, &FirstInterpreter.apply_command/2)
 
     horizontal * depth
   end
 
   def run2(commands \\ read_input()) do
     {horizontal, depth, _aim} =
-      commands |> Enum.reduce({0, 0, 0}, &SecondInterpreter.apply_command(&1, &2))
+      commands |> Enum.reduce({0, 0, 0}, &SecondInterpreter.apply_command/2)
 
     horizontal * depth
   end
