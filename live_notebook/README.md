@@ -6,3 +6,4 @@
 1. [Giant Sqid](./md/day_04)
 1. [Hydrothermal Venture](./md/day_05)
 1. [Lanternfish](./md/day_06)
+1. [The Treachery of Whales](./md/day_07)
