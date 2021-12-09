@@ -8,3 +8,4 @@
 1. [Lanternfish](./md/day_06)
 1. [The Treachery of Whales](./md/day_07)
 1. [Seven Segment Search](./md/day_08)
+1. [Smoke Basin](./md/day_09)
