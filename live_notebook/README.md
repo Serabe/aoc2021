@@ -10,3 +10,4 @@
 1. [Seven Segment Search](./md/day_08)
 1. [Smoke Basin](./md/day_09)
 1. [Syntax Scoring](./md/day_10)
+1. [Dumbo Octopus](./md/day_11)
